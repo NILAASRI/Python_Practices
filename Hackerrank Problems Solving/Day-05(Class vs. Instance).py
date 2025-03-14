@@ -30,19 +30,22 @@ for i in range(0, t):
     print("")
     
     '''
-    Input (stdin)
-4
--1
-10
-16
-18
-Your Output (stdout)
+Enter the value:4
+Enter your age:-1
 Age is not valid, setting age to 0.
 You are young.
 You are young.
+
+Enter your age:10
 You are young.
 You are a teenager.
+
+Enter your age:16
 You are a teenager.
+You are old.
+
+Enter your age:18
+You are old.
 You are old.
 
     '''
