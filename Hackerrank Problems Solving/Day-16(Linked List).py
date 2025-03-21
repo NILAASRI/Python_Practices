@@ -34,3 +34,14 @@ for i in range(T):
     data=int(input())
     head=mylist.insert(head,data)    
 mylist.display(head); 
+
+'''
+Input (stdin)
+4
+2
+3
+4
+1
+Your Output (stdout)
+2 3 4 1
+'''
