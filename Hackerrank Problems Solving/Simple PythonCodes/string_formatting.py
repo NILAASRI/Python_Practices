@@ -1,3 +1,4 @@
+#This explain the string formatting method:
 def print_formatted(number):
     # your code goes here
     width = len(bin(number)[2:])
