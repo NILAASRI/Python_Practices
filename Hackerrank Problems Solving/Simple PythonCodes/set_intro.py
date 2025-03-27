@@ -5,7 +5,7 @@ def average(array):
     return round(avg,3)
 
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input("Enter the value:"))
     arr = list(map(int, input().split()))
     result = average(arr)
     print(result)
