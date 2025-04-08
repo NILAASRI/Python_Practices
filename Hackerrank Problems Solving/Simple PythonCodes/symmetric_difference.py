@@ -14,7 +14,7 @@ for num in sorted(sym_diff):
 '''
 Sample Input
 
-STDIN       Function
+STDIN       Function (This function explains how the input checks the size of both set)
 -----       --------
 4           set a size M = 4
 2 4 5 9     a = {2, 4, 5, 9}
