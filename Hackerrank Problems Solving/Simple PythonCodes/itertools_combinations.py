@@ -1,4 +1,4 @@
-from itertools import combinations
+from itertools import combinations #Python statement that imports the combinations function from the built-in itertools module.
 
 # Read input
 s, k = input().split()
