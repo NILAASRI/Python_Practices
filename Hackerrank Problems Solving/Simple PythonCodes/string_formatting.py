@@ -15,4 +15,12 @@ Input (stdin)
 Expected Output
  1  1  1  1
  2  2  2 10
+
+Let's Breakdown:
+Decimal	Octal	Hex	Binary
+1	1	1	1
+2	2	2	10
+Each column is right-aligned using width = 2 (since binary 10 has 2 digits).
+
+
 '''
