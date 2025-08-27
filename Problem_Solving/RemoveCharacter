@@ -1,0 +1,20 @@
+
+org_str = "Hello, Friends!"
+
+#1)Naive
+new_str=""
+for char in org_str:
+    if char not in (',', '!'): #if char !=',' and char !='!':
+        new_str += char
+        
+print(org_str)
+print(new_str)
+
+#2)Replace
+new_str1 = org_str.replace(',', "").replace('!',"")
+
+print(new_str1)
+
+#3)Slice
+new_slice = org_str[5:] + " ** " +org_str[:5] + " ** "+ org_str[3:8]
+print(new_slice)
